@@ -28,5 +28,10 @@ y=train(6,"Moscow",6,17,0,5,99)
 u=train(7,"Moscow",7,18,0,5,9)
 i=train(8,"Astana",8,19,7,5,9)
 o=train(9,"Moscow",9,20,3,5,9)
-
-c=[q,w,e,r,t,y,u,i,o]
+c=[q,w,e,r,t,y,u,i,o] 
+a = [[1, 2, 3, 4], [5, 6], [7, 8, 9]]
+for i in range(len(a)):
+    for j in range(len(a[i])):
+        print(a[i][j], end=' ')
+    print()
+            
